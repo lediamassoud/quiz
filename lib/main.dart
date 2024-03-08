@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:quiz/screen1/screen_one.dart';
+import 'package:quiz/screen2/screen_two.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,7 +14,10 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return  MaterialApp(
 debugShowCheckedModeBanner: false,
-      home:  ScreenOne());
+      home:  ScreenTwo(),
+      //ScreenOne()
+
+    );
   }
 }
 

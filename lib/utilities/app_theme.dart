@@ -11,7 +11,13 @@ abstract class AppTheme{
   static const lightPink = Color(0xfffdf2fa);
   static const lightSimone = Color(0xfffffaf5);
   static const lightBlue = Color(0xfff0f9ff);
-
+//screentwo
+  static const lightGray = Color(0xfff8f9fc);
+  static const gray = Color(0xffd4d8d9);
+  static const semieGray = Color(0xff8a8c8c);
+  static const darkGray = Color(0xff636565);
+//screen three
+  static const mauve = Color(0xff7F56D9);
   //text style
   static const TextStyle titleTextStyle =
   TextStyle(fontWeight: FontWeight.normal, fontSize: 22, color: blackColor);
@@ -25,4 +31,6 @@ abstract class AppTheme{
   TextStyle(fontWeight: FontWeight.normal, fontSize: 20, color: blackLight);
   static const TextStyle seeMoreTextStyle =
   TextStyle(fontWeight: FontWeight.bold, fontSize: 18, color: greenColor);
+  static const TextStyle tabBarTitleTextStyle =
+  TextStyle(fontWeight: FontWeight.normal, fontSize: 16, color: blackColor);
 }

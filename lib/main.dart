@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:quiz/screen1/screen_one.dart';
 import 'package:quiz/screen2/screen_two.dart';
+import 'package:quiz/screen3/screen_three.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,10 +13,11 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return  MaterialApp(
+    return  const MaterialApp(
 debugShowCheckedModeBanner: false,
-      home:  ScreenTwo(),
+      home:  ScreenThree(),
       //ScreenOne()
+      //ScreenTwo()
 
     );
   }

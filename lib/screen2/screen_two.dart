@@ -17,7 +17,7 @@ class _ScreenTwoState extends State<ScreenTwo> {
   @override
   Widget build(BuildContext context) {
     int newIndex = 0;
-    bool isVisible1 = false;
+    bool isVisible1 = true;
     bool isVisible2 = false;
     bool isVisible3 = false;
     bool isVisible4 = false;

@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:quiz/screen1/feature_page.dart';
 import 'package:quiz/screen1/feeling_icon.dart';
 import 'package:quiz/screen1/icon_word.dart';
-import 'package:quiz/screen1/row_of_two_wordes.dart';
+import 'package:quiz/screen1/row_of_two_words.dart';
 import 'package:quiz/utilities/images_path.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 
